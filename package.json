@@ -1,0 +1,12 @@
+{
+  "name": "mimic-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nodemon index.js -e js,css,html"
+  },
+  "author": "",
+  "license": "ISC"
+}

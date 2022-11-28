@@ -1,0 +1,167 @@
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    top: 0;
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    font-family: sans-serif;
+    color: white;
+}
+
+#BG{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+    z-index: -1000;
+}
+
+header{
+    display: flex;
+    height: 60px;
+    /* background-color: blueviolet; */
+}
+
+header img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}
+
+header span{
+    align-self: center;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.container{
+    padding: 7%;
+}
+
+.container2{
+    padding: 2% 7%;
+}
+
+.corpusBanner{
+    font-size: 60px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.corpusBanner a{
+    background-color: #7bffe9;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    align-self: center;
+    margin-left: 20px;
+}
+
+.corpusBanner img{
+    width: 40px;
+    margin: 10px;
+}
+
+#details{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#details > span{
+    text-align: center;
+    font-size: 25px;
+}
+
+#details > div{
+    display: flex;
+    padding: 20px 100px;
+    font-size: 17px;
+    justify-content: space-between;
+}
+
+.audioTime{
+    display: flex;
+}
+
+#clipTime{
+    width: 120px;
+}
+
+pre{
+    margin: 0;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+#wave{
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto 60px auto;
+    height: 400px;
+    max-width: 1000px;
+    justify-content: space-between;
+}
+
+.container2.wakeword #wave{
+    max-width: 600px;
+}
+
+#corpusText{
+    color: #7bffe9;
+    height: auto;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 30px;
+    flex-grow: 1;
+}
+
+.visualizer {
+    display: block;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    opacity: 0.8;
+    height: 150px;
+}
+
+.audio{
+    display: none;
+}
+
+#visualizerWrap{
+    position: relative;
+    width: 100%;
+    opacity: 0.8;
+    height: 150px;
+}
+
+#canvas2wrapper{
+    position: absolute;
+    pointer-events: none;
+    height: 150px;
+    top: 0;
+    overflow: hidden;
+}
+
+#canvas2wrapper .visualizer{
+    width: auto;
+    opacity: 1;
+}
+
+
+footer{
+    color: #ffffff60;
+    font-size: 14px;
+    text-align:center;
+    padding-top: 15px;
+}
